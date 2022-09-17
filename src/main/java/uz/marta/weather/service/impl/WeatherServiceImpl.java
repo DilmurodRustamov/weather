@@ -13,6 +13,7 @@ import uz.marta.weather.service.WeatherService;
 import java.util.Optional;
 
 import static uz.marta.weather.apiResponsdeMessages.ResponseMessageKeys.CITY_NOT_FOUND;
+import static uz.marta.weather.apiResponsdeMessages.ResponseMessageKeys.WEATHER_SAVED;
 
 @Service
 @RequiredArgsConstructor
@@ -39,6 +40,6 @@ public class WeatherServiceImpl implements WeatherService {
         weather.setHumidity(weatherDto.getHumidity());
         weather.setCity(optionalCity.get());
         weatherRepository.save(weather);
-        return null;
+        return new ApiResponse(WEATHER_SAVED,false);
     }
 }
