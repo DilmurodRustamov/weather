@@ -2,7 +2,6 @@ package uz.marta.weather.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -16,13 +15,12 @@ import uz.marta.weather.repository.UserRepository;
 import uz.marta.weather.security.SecurityUser;
 import uz.marta.weather.service.UserService;
 
-import javax.servlet.http.PushBuilder;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
-import static uz.marta.weather.apiResponsdeMessages.ResponseMessageKeys.*;
+import static uz.marta.weather.apiResponseMessages.ResponseMessageKeys.*;
 
 @Service
 @RequiredArgsConstructor

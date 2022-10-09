@@ -1,4 +1,4 @@
-package uz.marta.weather.apiResponsdeMessages;
+package uz.marta.weather.apiResponseMessages;
 
 public interface ResponseMessageKeys {
 

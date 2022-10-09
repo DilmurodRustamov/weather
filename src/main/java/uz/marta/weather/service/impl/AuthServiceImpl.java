@@ -16,7 +16,7 @@ import uz.marta.weather.security.JwtProvider;
 import uz.marta.weather.security.SecurityUser;
 import uz.marta.weather.service.AuthService;
 
-import static uz.marta.weather.apiResponsdeMessages.ResponseMessageKeys.*;
+import static uz.marta.weather.apiResponseMessages.ResponseMessageKeys.*;
 
 @Service
 @RequiredArgsConstructor

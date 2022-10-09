@@ -12,11 +12,10 @@ import uz.marta.weather.repository.WeatherRepository;
 import uz.marta.weather.service.CityService;
 
 import javax.transaction.Transactional;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import static uz.marta.weather.apiResponsdeMessages.ResponseMessageKeys.*;
+import static uz.marta.weather.apiResponseMessages.ResponseMessageKeys.*;
 
 @Service
 @RequiredArgsConstructor

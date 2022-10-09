@@ -12,8 +12,8 @@ import uz.marta.weather.service.WeatherService;
 
 import java.util.Optional;
 
-import static uz.marta.weather.apiResponsdeMessages.ResponseMessageKeys.CITY_NOT_FOUND;
-import static uz.marta.weather.apiResponsdeMessages.ResponseMessageKeys.WEATHER_SAVED;
+import static uz.marta.weather.apiResponseMessages.ResponseMessageKeys.CITY_NOT_FOUND;
+import static uz.marta.weather.apiResponseMessages.ResponseMessageKeys.WEATHER_SAVED;
 
 @Service
 @RequiredArgsConstructor
